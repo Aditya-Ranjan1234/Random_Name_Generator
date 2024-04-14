@@ -1,0 +1,42 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,108,9,0.5019257703081232) 45%, rgba(60,161,134,1) 89%, rgba(0,212,255,1) 100%);
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  border-radius: 20%;
+  font-size: 0.9rem;
+  background: black;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  font-size: 0.9rem;
+  bottom: 0;
+}
